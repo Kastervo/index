@@ -10782,3 +10782,12 @@ header.masthead h1 {
 .copyrights {
   color: #fff;
 }
+
+.flogo {
+  text-align: center;
+}
+
+.flogo img {
+  height: 100px;
+  width: 100px;
+}
