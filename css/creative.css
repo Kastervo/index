@@ -2616,7 +2616,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
+  background-color: #464646;
   border-color: #ee3e0d;
 }
 
@@ -10575,7 +10575,7 @@ html {
 }
 
 .text-white-75 {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255);
 }
 
 hr.divider {
@@ -10631,7 +10631,7 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #01a0ff !important
 }
 
 @media (min-width: 992px) {
