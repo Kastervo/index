@@ -11106,6 +11106,8 @@ header.masthead h1 {
   padding-bottom: 1em;
 }
 
+@media screen and (min-width: 1210px) {
+
 @keyframes txt_1 {
   0% {
     opacity: 0;
@@ -11221,4 +11223,6 @@ header.masthead h1 {
   50% {
     color: black;
   }
+}
+
 }
