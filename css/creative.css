@@ -389,7 +389,7 @@ h3, .h3 {
 }
 
 h4, .h4 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 h5, .h5 {
@@ -11114,7 +11114,8 @@ header.masthead h1 {
   border-width: 1px;
   border-radius: 40px;
   padding: 1em;
-  padding-top: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .kst_why_col {
@@ -11132,6 +11133,19 @@ header.masthead h1 {
   padding-left: 2em;
   padding-right: 2em;
   font-size: 3rem;
+}
+
+.kst_why_col_head {
+  width: 100%;
+}
+
+.kst_why_col_head h2 {
+  margin-bottom: -1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: #f7f7f7;
+  position: relative;
 }
 
 @media screen and (min-width: 1210px) {
