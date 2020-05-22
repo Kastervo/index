@@ -10605,7 +10605,8 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  /*padding: 5rem 0;*/
+  padding-bottom: 10rem;
 }
 
 #mainNav {
@@ -10802,6 +10803,8 @@ header.masthead h1 {
   height: 40em;
   padding-right: 2em;
   padding-left: 2em;
+  margin-bottom: 13rem;
+  margin-top: 7rem;
 }
 
 .kst_imgwt_img {
@@ -11104,6 +11107,31 @@ header.masthead h1 {
 
 .g-recaptcha {
   padding-bottom: 1em;
+}
+
+.kst_why {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 40px;
+  padding: 1em;
+  padding-top: 0;
+}
+
+.kst_why_col {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
+.kst_short_col {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.kst_heavy_text {
+  font-weight: 501;
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 3rem;
 }
 
 @media screen and (min-width: 1210px) {
