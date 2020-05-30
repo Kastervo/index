@@ -10938,6 +10938,21 @@ header.masthead h1 {
   color: #fff;
 }
 
+.kst_footer_container a {
+  color: #fff;
+}
+
+.kst_footer_container empty_title {
+  padding-bottom: 18px;
+  opacity: 0;
+  display: block;
+}
+
+.kst_footer_ul {
+  display: inline-flex;
+  margin-right: 1em;
+}
+
 .kst_footer_section_1 {
   width: 25%;
   display: inline-flex;
