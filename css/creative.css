@@ -10797,7 +10797,7 @@ header.masthead h1 {
   width: 100px;
 }
 
-.kst_mouse_pointer {
+.kst_mouse_pointer:hover {
   cursor: pointer;
 }
 
