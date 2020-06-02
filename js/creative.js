@@ -56,3 +56,12 @@
   });
 
 })(jQuery); // End of use strict
+
+function kstSend() {
+  document.getElementById("kst_contact_input_name").required = true;
+  document.getElementById("kst_contact_input_phone").required = true;
+}
+
+function onSubmit(token) {
+  document.getElementById("demo-form").submit();
+}
