@@ -10797,6 +10797,10 @@ header.masthead h1 {
   width: 100px;
 }
 
+.kst_mouse_pointer {
+  cursor: pointer;
+}
+
 .kst_imgwt {
   display: inline-flex;
   width: 100%;
