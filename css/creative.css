@@ -10868,7 +10868,8 @@ header.masthead h1 {
 }
 
 .kst_entire_footer {
-  
+  display: block;
+  position: relative;
 }
 
 .kst_footer_il::before {
