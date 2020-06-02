@@ -10867,6 +10867,11 @@ header.masthead h1 {
   margin-top: 2em;
 }
 
+.kst_footer_entire {
+  position: absolute;
+  width: 100%;
+}
+
 .kst_footer_il::before {
   width:75px;
   height:70px;
