@@ -10893,6 +10893,7 @@ header.masthead h1 {
 .kst_footer_il::after {
   z-index:100;
   position:absolute;
+  position: -webkit-absolute;
   content:"";
   background-color:#f7f7f7
 }
