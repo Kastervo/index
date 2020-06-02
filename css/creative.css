@@ -11036,11 +11036,42 @@ header.masthead h1 {
 }
 
 .kst_hero_image {
-  background-image: url("../assets/content/designer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+}
+
+.kst_hero_image_about {
+  background-image: url("../assets/content/ab.jpg");
+}
+
+.kst_hero_image_slh {
+  background-image: url("../assets/content/slh.jpg");
+}
+
+.kst_hero_image_cdn {
+  background-image: url("../assets/content/cdn.jpg");
+}
+
+.kst_hero_image_consulting {
+  background-image: url("../assets/content/consulting.jpg");
+}
+
+.kst_hero_image_iaas {
+  background-image: url("../assets/content/iaas.jpg");
+}
+
+.kst_hero_image_mc {
+  background-image: url("../assets/content/mc.jpg");
+}
+
+.kst_hero_image_monitoring {
+  background-image: url("../assets/content/monitoring.jpg");
+}
+
+.kst_hero_image_shopify {
+  background-image: url("../assets/content/shopify.jpg");
 }
 
 .kst_hero_overlay {
