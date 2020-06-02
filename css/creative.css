@@ -10885,6 +10885,7 @@ header.masthead h1 {
 .kst_footer_il::after {
   height:54px;
   left:0;
+  top: 0;
   width:calc(61% - 468px - 63px);
 }
 
