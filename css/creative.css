@@ -11039,6 +11039,15 @@ header.masthead h1 {
   width: 100%;
 }
 
+.kst_why_col_head h2 {
+  margin-bottom: -1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
 @media screen and (max-width: 575px) {
 
   .kst_why_col_head {
@@ -11047,15 +11056,6 @@ header.masthead h1 {
     padding-right: 1em;
   }
 
-}
-
-.kst_why_col_head h2 {
-  margin-bottom: -1rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;
-  background-color: #f7f7f7;
-  position: relative;
 }
 
 .kst_top_hero_container {
@@ -11278,6 +11278,14 @@ header.masthead h1 {
   .kst_heavy_text {
     padding-left: 0em;
     padding-right: 0em;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  
+  .kst_why_col_head h2 {
+    width: 75%;
   }
 
 }
