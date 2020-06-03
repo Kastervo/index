@@ -11280,6 +11280,12 @@ header.masthead h1 {
     padding-right: 0em;
   }
 
+  .kst_paragraph_shopify {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+  }
+
 }
 
 @media screen and (max-width: 575px) {
