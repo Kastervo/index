@@ -8,7 +8,48 @@
 
 <url>
   <loc>https://kastervo.com/</loc>
-  <lastmod>2019-12-25T00:30:56+00:00</lastmod>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/iaas.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/slh.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/cdn.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/monitoring.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/managed-cloud.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/shopify-solutions.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/consulting.html</loc>
+  <lastmod>2020-06-03T00:44:46+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kastervo.com/about.html</loc>
+  <lastmod>2020-06-03T00:44:45+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
