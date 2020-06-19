@@ -138,6 +138,43 @@
   </div>
 </div>
 
+  <!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+          <h4 class="modal-title">Get a call from one of our engineers!</h4>
+      </div>
+      <div class="modal-body">
+        <form action="mailto:info@kastervo.com?subject=Contact Kastervo" method="post" enctype="text/plain">
+          <div class="kst_modal_contact_form">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="">Name</span>
+              </div>
+              <input id="kst_contact_input_name" type="text" name="You can call me: " class="form-control">
+            </div>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="">Phone</span>
+              </div>
+              <input id="kst_contact_input_phone" type="tel" name="My phone number is:" class="form-control">
+            </div>
+            <div class="g-recaptcha" data-sitekey="6LdfJfoUAAAAAIMuVECtQOS8E1snmZDftzQA7x4L"></div>
+            <input onclick="kstSend()" class="btn btn-dark" type="submit" value="Send">
+          </div>
+        </form>
+      </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-dismiss="modal">Close</button>
+        </div>
+    </div>
+      
+  </div>
+</div>
+
   <!-- Contact Section -->
   <section class="page-section" id="contact">
     <div class="container">
