@@ -11213,7 +11213,29 @@ header.masthead h1 {
 
 }
 
+@media screen and (min-width: 992px) {
+  
+  .kst_nav_mobile {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 991px) {
+
+  .kst_nav_desktop {
+    display: none;
+  }
+
+  .kst_services_mob {
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+  }
+
+  .kst_services_mob_inside {
+    padding-left: 1em;
+  }
 
   .kst_footer_il::before {
     display: none;
@@ -11238,6 +11260,16 @@ header.masthead h1 {
 
   }
 
+  .kst_footer_menumob {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #282828c4;
+    padding: 2em;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 19px;
+  }
+
   .kst_footer_branding {
     position: relative;
     width: 50%;
@@ -11259,6 +11291,8 @@ header.masthead h1 {
   .kst_footer_section_3 {
     width: 100%;
     display: block;
+    padding-bottom: 2em;
+    padding-top: 1em;
   }
   
   .kst_footer_section_4 {

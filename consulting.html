@@ -106,13 +106,15 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
+
+          <!-- Dropdown Services Desktop -->
+          <li class="nav-item kst_nav_desktop">
             <div class="dropdown show">
               <a class="dropdown-toggle nav-link js-scroll-trigger" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
             
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <div class="dropdown-menu" id="navbarResponsive" aria-labelledby="dropdownMenuLink">
                 <a class="dropdown-item" href="/iaas">Private Cloud (IaaS)</a>
                 <a class="dropdown-item" href="/slh">Linux Shared Hosting</a>
                 <a class="dropdown-item" href="/cdn">Content Delivery Network</a>
@@ -123,6 +125,36 @@
               </div>
             </div>
           </li>
+          <!-- -->
+
+          <!-- Services Mobile -->
+          <div class="kst_nav_mobile kst_services_mob">
+            <div class="kst_services_mob_inside">
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/iaas">Private Cloud (IaaS)</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/slh">Linux Shared Hosting</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/cdn">Content Delivery Network</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/monitoring">24/7 Server Monitoring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/managed-cloud">Managed Cloud</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/shopify-solutions">Shopify Administration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="/consulting">Consulting Services</a>
+              </li>
+            </div>
+          </div>
+          <!-- -->
+
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/about">About Us</a>
           </li>
@@ -266,6 +298,7 @@
       </div>
       <div class="kst_footer_section_3">
         <div class="kst_footer_container">
+          <div class="kst_footer_menumob">
           <h3>Menu</h3>
           <div class="kst_footer_ul">
             <ul>
@@ -282,6 +315,7 @@
               <li><a class="d-block" href="/consulting">Consulting Services</a></li>
               <li><a class="d-block" href="https://status.kastervo.com">Status</a></li>
             </ul>
+          </div>
           </div>
         </div>
       </div>
