@@ -51,6 +51,16 @@
   <lastmod>2020-06-03T00:44:45+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+<url>
+  <loc>https://blog.kastervo.com</loc>
+  <lastmod>2020-06-03T00:44:45+00:00</lastmod>
+  <priority>0.75</priority>
+</url>
+<url>
+  <loc>https://status.kastervo.com</loc>
+  <lastmod>2020-06-03T00:44:45+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
 
 
 </urlset>
