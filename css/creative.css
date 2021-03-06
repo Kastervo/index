@@ -11112,6 +11112,10 @@ header.masthead h1 {
   background-image: url("../assets/content/404.jpg");
 }
 
+.kst_hero_image_services {
+  background-image: url("../assets/content/services.jpg");
+}
+
 .kst_hero_overlay {
   width: 100%;
   height: 100%;
