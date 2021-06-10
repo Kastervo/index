@@ -10788,6 +10788,10 @@ header.masthead h1 {
   color: #fff;
 }
 
+.copyrights a {
+  color: #fff;
+}
+
 .flogo {
   text-align: center;
 }
