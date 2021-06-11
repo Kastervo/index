@@ -121,7 +121,7 @@
       </div>
 
   <!-- Navigation Desktop-->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav" role = "navigation" itemscope itemtype = "http://schema.org/SiteNavigationElement">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="/"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -138,12 +138,12 @@
               </a>
             
               <div class="dropdown-menu" id="navbarResponsive" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="/services/iaas">Private Cloud (IaaS)</a>
-                <a class="dropdown-item" href="/services/slh">Linux Shared Hosting</a>
-                <a class="dropdown-item" href="/services/cdn">Content Delivery Network</a>
-                <a class="dropdown-item" href="/services/monitoring">24/7 Server Monitoring</a>
-                <a class="dropdown-item" href="/services/managed-cloud">Managed Cloud</a>
-                <a class="dropdown-item" href="/services/consulting">Consulting Services</a>
+                <a class="dropdown-item" itemprop = "url" href="/services/iaas" itemprop = "url">Private Cloud (IaaS)</a>
+                <a class="dropdown-item" itemprop = "url" href="/services/slh">Linux Shared Hosting</a>
+                <a class="dropdown-item" itemprop = "url" href="/services/cdn">Content Delivery Network</a>
+                <a class="dropdown-item" itemprop = "url" href="/services/monitoring">24/7 Server Monitoring</a>
+                <a class="dropdown-item" itemprop = "url" href="/services/managed-cloud">Managed Cloud</a>
+                <a class="dropdown-item" itemprop = "url" href="/services/consulting">Consulting Services</a>
               </div>
             </div>
           </li>
@@ -175,16 +175,16 @@
           <!-- -->
 
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="/about">About Us</a>
+            <a class="nav-link js-scroll-trigger" itemprop = "url" href="/about">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
+            <a class="nav-link js-scroll-trigger" itemprop = "url" href="#contact">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://support.kastervo.com" target="_blank">Support</a>
+            <a class="nav-link js-scroll-trigger" itemprop = "url" href="https://support.kastervo.com" target="_blank">Support</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://blog.kastervo.com" target="_blank">Blog</a>
+            <a class="nav-link js-scroll-trigger" itemprop = "url" href="https://blog.kastervo.com" target="_blank">Blog</a>
           </li>
           <li class="nav-item">
             <a class="kst_mouse_pointer nav-link js-scroll-trigger" data-toggle="modal" data-target="#myModal">Get a call from us</a>
